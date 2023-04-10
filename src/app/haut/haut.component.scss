@@ -1,0 +1,19 @@
+.haut {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+
+  .gauche {
+    background-color: orangered;
+    width: 70%;
+    height: 100%;
+  }
+
+  .droite {
+    background: green;
+    width: 30%;
+    height: 100%;
+  }
+}
